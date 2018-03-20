@@ -66,7 +66,7 @@ public class Watches {
 
 	private void advanceTime(int advanceSeconds) {
 		if (advanceSeconds > 3600) {
-			this.hours = advanceSeconds / 3600;
+			this.hours = advanceSeconds / 3600; //Gulya
 			advanceSeconds -= this.hours * 3600;
 		}
 		
